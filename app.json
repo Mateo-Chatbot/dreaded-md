@@ -22,7 +22,7 @@
        "PREFIX":
     {
       "description":"choose your prefix for dreaded. To prevent errors and confusion you must set a prefix",
-      "value": ".",
+      "value": "!",
       "required":true
     },
 
@@ -30,7 +30,7 @@
     {
       "description":"Choose what kind of menu bot will display, put either LINK, IMAGE or VIDEO (must be in capital letters)",
       "value": "LINK",
-      "required":false
+      "required":true
     },
 
  "MENULINK":
@@ -52,13 +52,13 @@
 
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
-      "required": false
+      "required": true
     },
     
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
-      "required": false
+      "required": true
     },
 
     "ADMIN_MSG": {
@@ -162,7 +162,7 @@
 
 "BOTNAME": {
       "description": "Enter name for your bot.",
-      "required": false
+      "required": true
     },
 
 
